@@ -1,0 +1,5 @@
+"In order to write code, you read code 10 times more than you write it." by Uncle Bob
+"The best way to learn is to teach."
+"The best way to teach is to learn."
+"The best way to learn is to do."
+"The best way to do is to learn."
