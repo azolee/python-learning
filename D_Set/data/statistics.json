@@ -1,0 +1,72 @@
+[
+    {
+        "total_persons": 1000000,
+        "average_age": 45.253981,
+        "most_common_names": [
+            [
+                "Michael Smith",
+                453
+            ],
+            [
+                "Michael Johnson",
+                370
+            ],
+            [
+                "David Smith",
+                351
+            ],
+            [
+                "James Smith",
+                345
+            ],
+            [
+                "Michael Williams",
+                333
+            ]
+        ],
+        "most_common_jobs": [
+            [
+                "Analytical chemist",
+                1682
+            ],
+            [
+                "Archaeologist",
+                1679
+            ],
+            [
+                "Medical technical officer",
+                1671
+            ],
+            [
+                "Veterinary surgeon",
+                1669
+            ],
+            [
+                "Psychologist, occupational",
+                1667
+            ]
+        ],
+        "most_common_initials": [
+            [
+                "JM",
+                16049
+            ],
+            [
+                "JS",
+                13286
+            ],
+            [
+                "JB",
+                12362
+            ],
+            [
+                "JW",
+                12336
+            ],
+            [
+                "JH",
+                12216
+            ]
+        ]
+    }
+]
