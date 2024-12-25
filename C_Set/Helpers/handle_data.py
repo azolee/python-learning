@@ -14,7 +14,7 @@ def list_of_persons(persons: list, name_of_list: str = "") -> None:
     if name_of_list != "":
         print(f"\n{name_of_list} ({len(persons)}):")
     for person in persons:
-        death_date = person.get("death_date")
+        death_date = person.find("death_date")
         age = calculate_person_age(person["birth_date"], death_date)
         print(f" {person["name"]} ", end="")
         if death_date:

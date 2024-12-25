@@ -8,7 +8,7 @@ import random
 
 
 def print_person(person) -> str:
-    death_date = person.get("death_date")
+    death_date = person.find("death_date")
     age = calculate_person_age(person["birth_date"], death_date)
     info = f"{age} year old"
     if death_date:
@@ -20,7 +20,7 @@ def print_list_of_persons(persons: list, name_of_list: str = "", formater_functi
     if name_of_list != "":
         print(f"\n{name_of_list} ({len(persons)}):")
     for person in persons:
-        death_date = person.get("death_date")
+        death_date = person.find("death_date")
         age = calculate_person_age(person["birth_date"], death_date)
         if formater_function:
             print(formater_function(person))
